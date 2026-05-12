@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Layout CSS</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px 300px 80px;
+        gap: 10px;
+        padding: 10px;
+        height: 100vh;
+      }
+
+      .box {
+        background-color: lightblue;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .header {
+        grid-column: 1 / 4;
+        background-color: salmon;
+      }
+
+      .menu {
+        background-color: lightgreen;
+      }
+
+      .content {
+        background-color: lightyellow;
+      }
+
+      .sidebar {
+        background-color: lightpink;
+      }
+
+      .footer {
+        grid-column: 1 / 4;
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box header">HEADER</div>
+
+      <div class="box menu">MENU</div>
+
+      <div class="box content">CONTENT</div>
+
+      <div class="box sidebar">SIDEBAR</div>
+
+      <div class="box footer">FOOTER</div>
+    </div>
+  </body>
+</html>
