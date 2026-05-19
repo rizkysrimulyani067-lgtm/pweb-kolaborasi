@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio Mahasiswa</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      function hi() {
+        alert("Hi, terima kasih sudah mengunjungi portfolio saya");
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Portfolio Mahasiswa</h1>
+
+      <p>Tugas Pemrograman Web Sederhana</p>
+
+      <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#minat">Hobi & Minat</a>
+        <a href="#jadwal">Jadwal</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- SIDEBAR -->
+      <aside>
+        <img src="kiky.jpeg" alt="Foto Profil" />
+
+        <h2>Rizky Sri Mulyani</h2>
+
+        <div class="box">
+          <p><b>NIM :</b> 2500018011</p>
+        </div>
+
+        <div class="box">
+          <p><b>Kelas :</b> A</p>
+        </div>
+
+        <div class="box">
+          <p><b>Program Studi :</b> Informatika</p>
+        </div>
+
+        <div class="box">
+          <p><b>Fakultas :</b> Teknologi Industri</p>
+        </div>
+
+        <div class="box">
+          <p><b>Alamat :</b>Sleman, Yogyakarta</p>
+        </div>
+
+        <div class="box">
+          <p><b>Tempat, Tanggal Lahir :</b>Sleman, 29 November 2006</p>
+        </div>
+
+        <div class="box">
+          <p><b>Hobi :</b> Memasak, Nonton Film dan Menggambar</p>
+        </div>
+
+        <button onclick="hi()">Klik Disini</button>
+      </aside>
+
+      <!-- CONTENT -->
+      <section>
+        <!-- TENTANG -->
+        <div class="card" id="tentang">
+          <h2>Tentang Saya</h2>
+
+          <p>
+            Halo, saya Rizky Sri Mulyani bisa dipanggil kiky, Saya adalah
+            mahasiswa Informatika yang sedang belajar mengenai dunia teknologi
+            dan pengembangan website. Saya memiliki ketertarikan dalam bidang
+            desain sederhana, HTML, CSS, dan pengembangan tampilan website.
+          </p>
+
+          <br />
+
+          <p>
+            Selain belajar pemrograman, saya juga senang mencoba hal baru,
+            mendengarkan musik, memasak, menonton film, dan saya tertarik
+            mempelajari teknologi dan ingin terus meningkatkan kemampuan selama
+            masa perkuliahan.
+          </p>
+        </div>
+
+        <!-- PENDIDIKAN -->
+        <div class="card" id="pendidikan">
+          <h2>Riwayat Pendidikan</h2>
+
+          <ul>
+            <li>SD Negeri 1 Sambirejo</li>
+            <li>SMP Muhammadiyah 1 Prambanan</li>
+            <li>SMA Muhammadiyah 1 Prambanan</li>
+            <li>S1 Informatika Universitas Ahmad Dahlan</li>
+          </ul>
+        </div>
+
+        <div class="card" id="minat">
+          <h2>Hobi & Minat</h2>
+
+          <ul>
+            <li>Mendengarkan musik</li>
+            <li>Menonton film</li>
+            <li>Memasak</li>
+            <li>Bermain bulutangkis</li>
+          </ul>
+        </div>
+
+        <!-- JADWAL -->
+        <div class="card" id="jadwal">
+          <h2>Jadwal Kuliah</h2>
+
+          <table>
+            <tr>
+              <th>Hari</th>
+              <th>Mata Kuliah</th>
+              <th>Jam</th>
+            </tr>
+
+            <tr>
+              <td>Senin</td>
+              <td>Arsitektur Komputer</td>
+              <td>10.30-12.10</td>
+            </tr>
+
+            <tr>
+              <td>Selasa</td>
+              <td>Aljabar linear Matrik</td>
+              <td>07.00-08.40</td>
+            </tr>
+
+            <tr>
+              <td>Rabu</td>
+              <td>Pemrograman Web</td>
+              <td>10.30 - 12.10</td>
+            </tr>
+
+            <tr>
+              <td>Kamis</td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Jumat</td>
+              <td>Matematika Diskrit</td>
+              <td>07.00-08.40</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- KONTAK -->
+        <div class="card" id="kontak">
+          <h2>Kontak</h2>
+
+          <ul>
+            <li>Email : 2500018011@webmail.uad.ac.id</li>
+            <li>No HP : 081329863786</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Portfolio Mahasiswa | Rizky Sri Mulyani</p>
+    </footer>
+  </body>
+</html>
